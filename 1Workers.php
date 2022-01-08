@@ -27,7 +27,4 @@ $commonSalary = $salary1 + $salary2;
 echo $commonSalary.'<br>';
 echo $worker1->age + $worker2->age;
 
-
-
-
 ?>
