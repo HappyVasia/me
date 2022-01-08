@@ -9,8 +9,6 @@
 
 require_once '2classWorker.php';
 
-
-
 $worker1 = new Worker();
 $worker1->setName('Иван');
 $worker1->setAge(25);
@@ -32,28 +30,5 @@ echo $commonSalary.'<br>';
 
 $commonYears = $worker1->getAge() + $worker2->getAge();
 echo $commonYears;
-
-
-/* $worker1 = new Worker;
-$worker1->name = 'Иван';
-$worker1->age = 25;
-$worker1->salary = 1000;
-SendToArray($worker1);
-
-$worker2 = new Worker;
-$worker2->name = 'Вася';
-$worker2->age = 26;
-$worker2->salary = 2000;
-
-SendToArray($worker2);
-
-$salary1 = $worker1->salary;
-$salary2 = $worker2->salary;
-$commonSalary = $salary1 + $salary2;
-echo $commonSalary;
- */
-
-
-
 
 ?>
