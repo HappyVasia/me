@@ -84,5 +84,5 @@ $trapetsia1->ploschad();
 // вот как перекинуть значения сторон из метода dlinaStoron()
 // в методы ploschad() и perimetr()
 
-
+ж
 ?>
