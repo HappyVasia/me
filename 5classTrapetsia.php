@@ -72,24 +72,17 @@ echo "Сторона a = $a <br> Сторона b = $b <br>
 $ploschad = ( ($a+$b)/4 )* sqrt( (4*pow($c,2))-pow(($a-$b),2));
 		echo "Площадь данной трапеции равна $ploschad";
 	
-	
 	}	
 	
-   
-	
 	}
-
 
 $trapetsia1 = new RavnobochnayaTrapetsia(1, 7, 5, 5, 4, 1, 1, 1);	
 //echo $trapetsia1->dlinaStoron();
 
 $trapetsia1->ploschad();
 
-
-
-
-
-
+// вот как перекинуть значения сторон из метода dlinaStoron()
+// в методы ploschad() и perimetr()
 
 
 ?>
